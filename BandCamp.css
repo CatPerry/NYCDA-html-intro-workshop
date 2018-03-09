@@ -1,0 +1,96 @@
+body {
+	background-image: url("15203789970061058077799.png");
+	background-color: red;
+	background-blend-mode: screen;
+}
+
+section {
+	float: left;
+}
+
+img {
+	margin: 1em;
+	border-radius: 10em;
+	border-color: black;
+	border-width: 10em;
+}
+
+.bio-text {
+	font-weight: bold;
+	background-color: white;
+	color: black;
+}
+
+.whiteout {
+	background-color: white;
+	color: white;
+	padding: 2em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 7vw;
+	color: white;
+	background-color: #581845;
+}
+
+h2 {
+	font-variant: small-caps;
+	color: black;
+}
+
+li {
+	color: black;
+}
+
+.main {
+	max-width: 550px;
+	float: right;
+	overflow: auto;
+	margin-left: 1em;
+	border-color: white;
+	border-width: 2em;
+}
+
+.selfie {
+	max-width: 150px;
+	float: right;
+}
+
+h3 {
+	color: blue;
+	font-style: italic;
+}
+
+video {
+	float:right;
+}
+
+.menu {
+	display: inline-block;
+	margin: 2em;
+	font-size: 1.2em;
+	font-style: italic;
+	background-color: white;
+	padding-right: 2em;
+	padding-left: 2em;
+	margin: 0;
+	text-align: center;
+}
+
+.nav {
+	background-color: white;
+	padding: 1em;
+	margin: 1em;
+}
+
+aside {
+	display: flex;
+	flex-wrap: nowrap;
+	position: right;
+}
+
+footer {
+	background-color: white;
+	font-size: 1.5em;
+}
